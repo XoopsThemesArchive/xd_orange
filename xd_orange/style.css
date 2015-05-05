@@ -1,0 +1,194 @@
+body {
+	margin: 0px;
+	font-family: verdana,sans-serif; 
+	font-size: 11px;
+	color: #000000;
+	background-color:#DBDBDB;
+	text-align:center;
+}
+
+table td {
+	padding: 0; 
+	border-width: 0; 
+	vertical-align: top; 
+	font-family: Verdana;
+}
+
+#spacer{
+	color:#ffffff;
+	font-size:1px;
+}
+#menu_droit{
+
+	width:148px;
+	height:auto;
+	float:left;
+}
+#menu_gauche{
+	float:left;
+	padding-left:20px;
+	width:149px;
+
+}
+
+#englobe {
+	width: 792px;
+	height : auto;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top:0px;
+	text-align : left;
+}
+
+#liens{
+	float:left;
+	padding-left:22px;
+	padding-top:62px;
+	width:747px;
+	height:15px;
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+#liens a{
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+.menuc{
+	float:left;
+	width:50%;
+}
+
+#content{
+	float:left;
+	width:100%;
+}
+
+#nom{
+	float:left;
+	padding-left:30px;
+	margin-top:65px;
+	font-size:30px;
+	color:#ffffff
+}
+.menu{
+
+	background:url(images/menu.gif) repeat-x;
+	height:15px;
+	width:100%;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#milieu {
+	background:  url(milieu.jpg) repeat-y;
+	width: 792px;
+	height: auto;
+	float:left;
+}
+
+
+
+input,textarea{
+	font-family: verdana,sans-serif; 
+	font-size:10px;
+}
+
+#texte_footer{
+	float:left;
+	width:792px;
+	text-align:center;
+	margin-top:15px;
+	font-size:10px;
+}
+
+#menu_centre{
+	float:left;
+	width:437px;
+	height:auto;
+	padding-left:6px;
+	padding-right:6px;
+	border-right:1px solid #000000;
+	border-left:1px solid #000000;
+}
+
+img {
+	border: 0px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ECB729;
+	text-decoration: none;
+}
+
+#header {
+	background:  url(images/header.jpg) repeat-y;
+	width: 792px;
+	height: 183px;
+	float:left;
+}
+
+
+#footer {
+	background:  url(images/footer.jpg) repeat-y;
+	width: 792px;
+	height: 32px;
+	float:left;
+}
+
+.item {border: 1px solid #ECB729;}
+
+.itemHead a{
+	color:#ffffff;
+	font-wieght:bold;
+}
+.itemHead a:hover{
+	color:#ffffff;
+	font-wieght:bold;
+}
+.itemHead {font-style:bold; color:#ffffff;float: left;background-color:#ECB729 ;width:100%;height:15px;padding-top:4px;}
+
+.itemInfo {text-align: right; padding: 3px;	background-color: #FCE08B;}
+.itemPoster {font-size: 85%; font-style:italic;}
+.itemPostDate {font-size: 85%; font-style:italic;}
+.itemStats {font-size: 85%; font-style:italic;}
+.itemBody {padding-left: 0px;background-image:}
+.itemText {padding: 5px; margin-top: 0px; margin-bottom: 0px; line-height:1.5em; text-align: justify;}
+.itemText:first-letter {font-size: 155%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px;background-color: #FEEFC1}
+.itemAdminLink {font-size: 10px;}
+.itemPermaLink {font-size: 10px;}
+.itemTitle a {font-size: 98%; font-weight: bold; }
+th {background-color:#252432 ; color:#ffffff;height:23px; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.outer {border: 1px solid silver;}
+.head {background:#ECB729; padding: 5px; color: #ffffff; font-weight: bold;}
+.even {background-color: #FCE08B; padding: 5px;}
+.odd {background-color: #FEEFC1; padding: 5px;}
+.foot {background-color: #EEB51B; padding: 5px; font-weight: bold;}
+
+tr.even td {background-color: #FEEFC1; padding: 5px;}
+tr.odd td {background-color: #FCE08B; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; margin : 0;px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; margin : 0;px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #808080; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #808080; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic;}
+.comDateCaption {font-weight: bold; font-style: normal;}

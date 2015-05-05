@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" >
+
+<head>
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<!-- RMV:  added module header <{$xoops_themecss}>-->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+
+<body>
+<div id="englobe">
+
+	<div id="header">
+		<div id="nom"><{$xoops_sitename}></div>
+		<div id="liens"><a href="">Lien</a> - <a href="">Lien</a> - <a href="">Lien</a> - <a href="">Lien</a></div>
+	</div>
+		
+	<div id="milieu">
+		
+		<div id="menu_gauche">
+		
+		<{foreach item=block from=$xoops_lblocks}>
+		<{include file="xd_orange/menu.html"}>
+		<{/foreach}>
+		
+		<div id="spacer">.</div>
+		</div>
+		
+		<div id="menu_centre">		
+		
+		<{foreach item=block from=$xoops_ccblocks}>
+		<{include file="xd_orange/menu.html"}>
+		<{/foreach}>
+		
+		<div class="menuc">
+		<{foreach item=block from=$xoops_clblocks}>
+		<{include file="xd_orange/menu.html"}>
+		<{/foreach}>
+		</div>
+	
+		<div class="menuc">
+		<{foreach item=block from=$xoops_crblocks}>
+		<{include file="xd_orange/menu.html"}>
+		<{/foreach}>
+		</div>
+		
+		<div id="content">
+		<{$xoops_contents}>
+		</div>
+		
+		
+		
+		<br /><br />
+		
+		</div>
+		
+		<div id="menu_droit">
+		
+		<{foreach item=block from=$xoops_rblocks}>
+		<{include file="xd_orange/menu.html"}>
+		<{/foreach}>
+		
+		</div>
+
+		
+	</div>
+
+	<div id="footer">
+		<div id="texte_footer">
+			Thème créé par Desoude pour <a target="_blank" href="http://www.xoops-design.org/">Xoops-Design</a>.
+		</div>
+	</div>
+	
+</div>
+
+</body>
+
+</html>
